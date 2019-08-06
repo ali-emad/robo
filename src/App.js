@@ -12,7 +12,7 @@ class App extends React.Component {
     };
   }
   searchchange(event) {
-    console.log(event.target);
+    console.log(event.target.value);
   }
 
   render() {
